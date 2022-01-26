@@ -10,15 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    
+    <link rel="stylesheet" href="./css/main.min.css">
     </head>
 <body>
     <!-- header-->
     <header class="header-nav">
     <div class="header-div container">
     
-            <a lang="en" href="./index.html" class="logo-link"><span class="logo-accent">Web</span><span
-                    class="logo-header">Studio</span></a>
+            <a lang="en" href="./index.html" class="logo-link"><span class="logo logo-accent">Web</span><span
+                    class="logo logo-header">Studio</span></a>
             
             <nav>
                 <ul class="nav list">
@@ -55,8 +56,8 @@
             <!-- Особенности -->
         <section class="features section">
             <div class="container">
-                    <h2 class="section-title-hidden">Особенности</h2>
-                    <ul class="features list">
+                    <h2 class="visually-hidden">Особенности</h2>
+                    <ul class="features-list">
                         <li class="features-list-item">
                             <div class="features-icon-box">
                                 <svg class="features-icon">
@@ -106,10 +107,10 @@
         </section>
 
         <!--Чем мы занимаемся-->
-        <section class="occupation section">
+        <section class="occupation-section">
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
-                <ul class="occupation list">
+                <ul class="occupation-list">
                     <li class="occupation-item"><img src="./images/box1.jpg" alt="печатаем" width="370">
                         <div class="occupation-overlay"></div>
                         <span class="occupation-text">Десктопные приложения</span>
@@ -133,7 +134,7 @@
         <section class="team section">
             <div class="container">
                         <h2 class="section-title">Наша команда</h2>
-                        <ul class="team list">
+                        <ul class="team-list">
                             <li class="team-member"><img src="./images/teamcard1.jpg" alt="Игорь Демьяненко" width="270">
                                 <div class="team-card">
                                     <h3 class="team-name">Игорь Демьяненко</h3>
@@ -362,9 +363,9 @@
         <section class="footer-container">
 
         <div>
-        <a lang="en" href="./index.html" class="logo-link-footer"><span class="logo-accent">Web</span><span class="logo-footer">Studio</span></a>
+        <a lang="en" href="./index.html" class="logo-link-footer"><span class=" logo logo-accent">Web</span><span class="logo logo-footer">Studio</span></a>
         <address>
-            <ul class="list footer-list">
+            <ul class="footer-list">
                 <li><a class="address" href="https://goo.gl/maps/949zWMk1F1yrqGog6" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li><a class="address" href="mailto:info@example.com">info@example.com</a></li>
                 <li><a class="address" href="tel:+380991111111">+38 099 111 11 11</a></li>
@@ -482,19 +483,9 @@
                     </div>
 
                     <div class="agreement">                    
-                        <input class="checkbox" type="checkbox" required name="agreement" id="agreement" value="agree">                        
+                        <input class="checkbox visually-hidden" type="checkbox" required name="agreement" id="agreement" value="agree">                        
                         <label class="agreement-check" for="agreement">Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="">Условия договора</a> </label>
                     </div>
-
-                    <!-- <div class="agreement">                    
-                    <input class="checkbox" type="checkbox" required name="agreement" id="agreement" value="agree">
-                    <span class="checkbox-square">
-                        <svg class="icon-check">
-                            <use href="./images/icons.svg#icon-check"></use>
-                        </svg>
-                    </span>
-                    <label class="agreement-check" for="agreement">Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="">Условия договора</a> </label>
-                    </div>  -->
 
                     <button type="submit" class="submit">Отправить</button>
 
