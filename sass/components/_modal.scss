@@ -31,16 +31,8 @@
     transition: transform 300ms var(--cubic);
     padding: 40px;
   }
-  
-  
-  
-  .modal-close {
-    width: 11px;
-    height: 11px;
-    fill: currentColor;    
-  }
-  
-  .modal-button {
+    
+  .modal__button {
     padding: 0;
     position: absolute;
     right: 8px;
@@ -63,8 +55,14 @@
       color: var(--accent-color);
     }
   }
+
+  .modal__button--close {
+    width: 11px;
+    height: 11px;
+    fill: currentColor;    
+  }
   
-  .modal-title {
+  .modal__title {
     color: var(--title-color);
     font-weight: 700;
   font-size: 20px;
@@ -74,7 +72,7 @@
   margin-bottom: 30px;
   }
   
-  .form-field {
+  .modal__input--div {
     display: block;
     position: relative;
     width: 448px;
@@ -94,7 +92,7 @@
   user-select: none;
   }
   
-  .input-tab {
+  .modal__inputtab {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -113,7 +111,7 @@
   }
 
   
-  .modal-form-icon-div {
+  .modal__icon--div {
     color: var(--title-color);
     transition: color 250ms var(--cubic);
 
@@ -121,17 +119,17 @@
       color: var(--accent-color);
     }
 
-    .input-tab:hover ~ &, .input-tab:focus ~ & {
+    .modal__inputtab:hover ~ &, .input-tab:focus ~ & {
       color: var(--accent-color);
     }
 
-    .input-tab:not(:placeholder-shown) ~ & {
+    .modal__inputtab:not(:placeholder-shown) ~ & {
       color: var(--accent-color);
     }
   }
  
   
-  .modal-form-icon {
+  .modal__icon {
     fill: currentColor;
     width: 18px;
     height: 18px;
@@ -188,12 +186,12 @@
     margin: -1px;  
   }
   
-  .agreement-link {
+  .agreement__link {
     text-decoration: underline;
     color: var(--accent-color);
   }
   
-  .agreement-check {
+  .agreement__check {
     cursor: pointer;
     user-select: none;
     display: flex;

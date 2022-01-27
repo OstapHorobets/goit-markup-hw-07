@@ -7,9 +7,17 @@
         justify-content: flex-start;
         }
   }
-  
+
+  .nav {
+    display: flex;
+    margin-left: 93px;
+
+    & li:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
     
-  .nav-link {
+  .nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -50,7 +58,6 @@
     }
   }
   
-  
   .contact-list {
     display: flex;
     margin-left: auto;
@@ -60,7 +67,7 @@
     }
   }
   
-  .nav-contact {
+  .nav__contact {
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
@@ -80,18 +87,8 @@
       color: var(--accent-color);
     }
   }
-  
-  
-  .contacts-icon {
+
+  .contacts__icon {
     fill: currentColor;
     margin-right: 10px;
-  }
-  
-  .nav {
-    display: flex;
-    margin-left: 93px;
-
-    & li:not(:last-child) {
-      margin-right: 50px;
-    }
   }

@@ -1,15 +1,15 @@
-.clients-list {
+.clients__list {
     display: flex;
   }
-  .clients-list-item {
-    display: flex;
+  
+.clients__item {
+  display: flex;
 
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
-  }
+  &:not(:last-child) {
+    margin-right: 30px;
+  } }
 
-  .clients-link {
+  .clients__link {
     color: var(--social-icon);
     width: 170px;
     height: 92px;
@@ -27,6 +27,6 @@
       }
     }
 
-.client-icon {
+.client__icon {
   fill: currentColor;
 }

@@ -6,7 +6,7 @@
     }
   }
     
-  .filter-button {
+  .filter__button {
     background-color: var(--secondary-background);
     color: var(--title-color);
     line-height: 1.625;
@@ -60,12 +60,12 @@
     }
   }
   
-  .project-item {
+  .projects__item {
     margin-bottom: 30px;  
     margin-left: 30px;
   }
     
-  .project-item-link {
+  .projects__link {
     display: block;
     width: 370px;
     position: relative;
@@ -78,7 +78,7 @@
   }
    
   
-  .thumb-portfolio {
+  .portfolio__thumb {
     display: block;
     position: relative;
     overflow: hidden;
@@ -87,7 +87,7 @@
     width: 370px;
   }
   
-  .portfolio-overlay {
+  .portfolio__overlay {
     position: absolute;
     display: block;
     background-color: var(--accent-color);
@@ -101,12 +101,12 @@
     transform: translateY(101%);
     opacity: 90%;
 
-    .project-item-link:hover &, .project-item-link:focus & {
+    .projects__link:hover &, .projects__link:focus & {
       transform: translateY(0);
     }
   }
   
-  .portfolio-overlay-text {
+  .portfolio__overlay-text {
   position: absolute;
   display: block;
   width: 322px;
@@ -122,12 +122,12 @@
   transition: transform 250ms var(--cubic);
   transform: translateY(101%);
 
-  .project-item-link:hover &, .project-item-link:focus & {
+  .projects__link:hover &, .projects__link:focus & {
     transform: translateY(0);
   }
   }
-   
-  .project-text {
+  
+  .projects__text {
     width: 370px;
     padding: 20px 24px;
     border-right: 1px solid #EEEEEE;

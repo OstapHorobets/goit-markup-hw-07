@@ -1,4 +1,4 @@
-.features-list {
+.features__list {
     display: flex;
     justify-content: center;
 
@@ -7,20 +7,20 @@
     }
     }
     
-    .features-list-item {
+    .features__item {
       width: 270px;
     }
     
-    .features-paragraph {
+    .features__paragraph {
       display: block;
       width: 270px; 
     }
-    .features-icon {
+    .features__icon {
       width: 70px;
       height: 70px;    
     }
     
-    .features-icon-box {
+    .features__icon-box {
       display: flex;
       justify-content: space-evenly;
       justify-content: center;
