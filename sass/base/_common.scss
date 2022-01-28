@@ -3,7 +3,7 @@
   body {
     color: var(--main-text);
     background-color: var(--main-background);
-    font-family: "Roboto", sans-serif;
+    font-family: $main-font;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
