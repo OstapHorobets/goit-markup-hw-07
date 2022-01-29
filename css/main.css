@@ -181,7 +181,7 @@ ul {
   background-color: var(--accent-color);
   border-radius: 2px;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 }
 
 .contact-list {
@@ -693,7 +693,7 @@ ul {
   color: var(--accent-color);
 }
 
-.modal__inputtab:hover ~ .modal__icon--div, .input-tab:focus ~ .modal__icon--div {
+.modal__inputtab:hover ~ .modal__icon--div, .modal__inputtab:focus ~ .modal__icon--div {
   color: var(--accent-color);
 }
 
